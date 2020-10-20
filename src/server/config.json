@@ -1,0 +1,25 @@
+[
+  {
+    "name": "police",
+    "staatlich": true,
+    "schellen": true,
+    "medic": true,
+    "bußgelder": true,
+    "rechnungen": false,
+    "heilen": false,
+    "kammer": true,
+    "waffenkammer": true,
+    "kammerGrades": [1,2,3],
+    "hq": [
+      { 
+        "name": "Polizei-Stadt",
+        "blip": {"x":1.11,"y":2.22,"z":3.33},
+        "boss": {"x":1.11,"y":2.22,"z":3.33},
+        "umkleide": {"x":1.11,"y":2.22,"z":3.33},
+        "skin": {"x":1.11,"y":2.22,"z":3.33},
+        "kammer": {"x":1.11,"y":2.22,"z":3.33},
+        "duty": {"x":1.11,"y":2.22,"z":3.33}
+      }
+    ]
+  }
+]
