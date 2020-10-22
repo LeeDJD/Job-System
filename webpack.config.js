@@ -12,7 +12,7 @@ const server = {
       {
         test: /\.tsx?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        use: ['ts-loader', 'eslint-loader'],
       },
     ],
   },
@@ -50,7 +50,7 @@ const client = {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: 'babel-loader',
+        use: ['ts-loader', 'eslint-loader'],
         exclude: /node_modules/,
       },
     ],

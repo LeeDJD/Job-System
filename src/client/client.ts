@@ -1,4 +1,4 @@
-import { ImmoPlayer } from "base";
+import { ImmoPlayer } from "./base";
 import { Game } from 'fivem-js';
 // import {ESX} from "./esx";
 
